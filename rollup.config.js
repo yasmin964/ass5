@@ -8,7 +8,7 @@ import typescript from '@rollup/plugin-typescript';
 import json from '@rollup/plugin-json';
 
 export default {
-  input: 'src/pages/index.tsx',
+  input: 'pages/index.tsx',
   output: {
     file: 'dist/bundle.js',
     format: 'cjs',
